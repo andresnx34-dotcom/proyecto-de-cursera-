@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos — Jimmy Castellanos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip link: solo visible al enfocar (position + :focus) -->
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header>
+    <a class="logo" href="index.html">&lt;<span>Jimmy</span> /&gt;</a>
+    <nav aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="proyectos.html" class="active">Proyectos</a>
+      <a href="herramientas.html">Herramientas</a>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+
+    <div class="hero" style="padding-bottom: 16px;">
+      <h1>Mis <span class="highlight">Proyectos</span></h1>
+      <p>Una selección de proyectos personales y prácticos desarrollados durante mi formación en diseño y desarrollo web.</p>
+    </div>
+
+    <!-- PROYECTOS — GRID de 2 columnas · 6 tarjetas = 6 imágenes (≥5 requisito) -->
+    <section aria-labelledby="proyectos-titulo">
+      <h2 id="proyectos-titulo">Proyectos Destacados</h2>
+      <div class="grid-projects">
+
+        <article class="project-card animate">
+          <img
+            src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=600&q=80"
+            alt="Captura de pantalla de sitio web con código HTML visible">
+          <div class="project-info">
+            <h3>Portafolio Personal</h3>
+            <p>Sitio web personal construido con HTML semántico y CSS puro. Enfoque en accesibilidad y diseño responsivo.</p>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">A11y</span>
+          </div>
+        </article>
+
+        <article class="project-card animate">
+          <img
+            src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80"
+            alt="Aplicación de lista de tareas en pantalla de teléfono móvil">
+          <div class="project-info">
+            <h3>App Lista de Tareas</h3>
+            <p>Aplicación interactiva de gestión de tareas usando JavaScript vanilla, localStorage y diseño móvil-primero.</p>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Mobile</span>
+          </div>
+        </article>
+
+        <article class="project-card animate">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
+            alt="Dashboard con gráficas y estadísticas en pantalla">
+          <div class="project-info">
+            <h3>Dashboard de Estadísticas</h3>
+            <p>Panel de control visual con gráficas, tarjetas de métricas y layout responsivo usando CSS Grid y Flexbox.</p>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Charts</span>
+          </div>
+        </article>
+
+        <article class="project-card animate">
+          <img
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80"
+            alt="Código de programación en editor de texto oscuro">
+          <div class="project-info">
+            <h3>Blog Técnico</h3>
+            <p>Blog estático sobre programación web. Implementa tipografía editorial, dark mode y validación W3C completa.</p>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Dark Mode</span>
+          </div>
+        </article>
+
+        <article class="project-card animate">
+          <img
+            src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80"
+            alt="Persona escribiendo código en laptop">
+          <div class="project-info">
+            <h3>Tienda en Línea</h3>
+            <p>Prototipo de e-commerce con catálogo de productos en grid, filtros y carrito de compras interactivo.</p>
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS Grid</span>
+            <span class="tag">UI/UX</span>
+          </div>
+        </article>
+
+        <article class="project-card animate">
+          <img
+            src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?w=600&q=80"
+            alt="Diseño de interfaz de usuario en pantalla con colores vibrantes">
+          <div class="project-info">
+            <h3>UI Component Library</h3>
+            <p>Biblioteca de componentes reutilizables: botones, tarjetas, modales y formularios accesibles con CSS variables.</p>
+            <span class="tag">CSS</span>
+            <span class="tag">Variables</span>
+            <span class="tag">Componentes</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO CTA -->
+    <section aria-labelledby="contacto-cta">
+      <h2 id="contacto-cta">¿Quieres colaborar?</h2>
+      <p>Estoy abierto a proyectos, prácticas y oportunidades de aprendizaje colaborativo.</p>
+      <a class="btn" href="herramientas.html">Ver mis herramientas →</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Creado por Jimmy Andrés Castellanos Hernández &amp;
+    <a href="http://www.intro-webdesign.com" target="_blank" rel="noopener">Intro to Web Design</a> · 2025</p>
+  </footer>
+
+</body>
+</html>

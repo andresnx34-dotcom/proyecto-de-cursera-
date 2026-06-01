@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jimmy Castellanos — Desarrollador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip link: solo visible al enfocar (position + :focus) -->
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <header>
+    <a class="logo" href="index.html">&lt;<span>Jimmy</span> /&gt;</a>
+    <nav aria-label="Navegación principal">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="herramientas.html">Herramientas</a>
+    </nav>
+  </header>
+
+  <main id="contenido-principal">
+
+    <!-- HERO -->
+    <div class="hero">
+      <h1>Hola, soy <span class="highlight">Jimmy</span><br>Desarrollador Web</h1>
+      <p>Apasionado por construir interfaces limpias, código eficiente y experiencias digitales accesibles. Basado en Colombia 🇨🇴</p>
+      <a class="btn" href="proyectos.html">Ver mis proyectos →</a>
+    </div>
+
+    <!-- SOBRE MÍ -->
+    <section aria-labelledby="sobre-mi">
+      <h2 id="sobre-mi">Sobre mí</h2>
+      <p>Soy estudiante de tecnología con interés en el desarrollo frontend, la accesibilidad web y el diseño de sistemas. Me encanta aprender nuevas herramientas y aplicarlas en proyectos reales.</p>
+      <p>Cuando no estoy programando, disfruto la música, el fútbol y explorar Colombia con mi cámara.</p>
+
+      <img
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80"
+        alt="Escritorio de programador con laptop y código en pantalla"
+        style="margin-top: 24px; max-width: 600px;"
+      >
+    </section>
+
+    <!-- HABILIDADES — GRID de 3 columnas -->
+    <section aria-labelledby="habilidades">
+      <h2 id="habilidades">Habilidades</h2>
+      <div class="grid-skills">
+        <div class="skill-card animate">
+          <div class="icon">🌐</div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Marcado semántico, accesibilidad WCAG, diseño responsivo y animaciones CSS.</p>
+        </div>
+        <div class="skill-card animate">
+          <div class="icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>DOM, eventos, fetch API, ES6+ y fundamentos de programación asíncrona.</p>
+        </div>
+        <div class="skill-card animate">
+          <div class="icon">🎨</div>
+          <h3>Diseño UI</h3>
+          <p>Sistemas de diseño, variables CSS, grid, flex y experiencia de usuario.</p>
+        </div>
+        <div class="skill-card animate">
+          <div class="icon">🛠️</div>
+          <h3>Herramientas</h3>
+          <p>Git, VS Code, GitHub, validadores W3C y extensiones de accesibilidad WAVE.</p>
+        </div>
+        <div class="skill-card animate">
+          <div class="icon">📱</div>
+          <h3>Responsive</h3>
+          <p>Mobile-first, media queries, viewport units y layouts adaptables.</p>
+        </div>
+        <div class="skill-card animate">
+          <div class="icon">♿</div>
+          <h3>Accesibilidad</h3>
+          <p>ARIA roles, contraste de color, navegación por teclado y semántica.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAYECTORIA — FLEX timeline -->
+    <section aria-labelledby="trayectoria">
+      <h2 id="trayectoria">Trayectoria</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="year">2022</div>
+          <h3>Primeros pasos en HTML</h3>
+          <p>Aprendí los fundamentos del marcado web y construí mis primeras páginas estáticas.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2023</div>
+          <h3>CSS y diseño responsivo</h3>
+          <p>Profundicé en Flexbox, Grid y el modelo de caja para crear layouts modernos.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2024</div>
+          <h3>JavaScript y accesibilidad</h3>
+          <p>Agregué interactividad a mis proyectos y empecé a aplicar buenas prácticas de a11y.</p>
+        </div>
+        <div class="timeline-item">
+          <div class="year">2025</div>
+          <h3>Especialización Web Design</h3>
+          <p>Curso completo de diseño web, CSS avanzado y validación con herramientas WAVE y W3C.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Creado por Jimmy Andrés Castellanos Hernández &amp;
+    <a href="http://www.intro-webdesign.com" target="_blank" rel="noopener">Intro to Web Design</a> · 2025</p>
+  </footer>
+
+</body>
+</html>
