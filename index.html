@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal - Jimmy Castellanos</title>
+    <!-- Enlace al archivo CSS externo (requisito de vinculación) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Requisito 2: Enlace "Saltar al contenido principal" -->
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <h1>Jimmy Andrés Castellanos Hernández</h1>
+
+    <!-- NAV con inline-block y 80% de ancho (requisito 4) -->
+    <nav>
+        <a href="#">One</a>
+        <a href="#">Two</a>
+        <a href="#">Three</a>
+        <a href="#">Mi Enlace Favorito</a>
+    </nav>
+
+    <!-- Requisito 2: id="contenido-principal" en el elemento main -->
+    <main id="contenido-principal">
+
+        <section>
+            <h2>Alimentos Favoritos</h2>
+            <!-- ul con li — el estilo del li está comentado en el CSS (requisito 3) -->
+            <ul>
+                <li>Pizza</li>
+                <li>Arepas</li>
+                <li>Sushi</li>
+                <li>Chocolate</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Logros</h2>
+            <p>Progreso en este curso (100%)</p>
+            <progress value="100" max="100" aria-label="Progreso en este curso: 100%"></progress>
+
+            <p>Progreso en el capstone de la especialización (20%)</p>
+            <progress value="20" max="100" aria-label="Progreso en el capstone: 20%"></progress>
+
+            <p>Progreso en mis metas de vida (67%)</p>
+            <progress value="67" max="100" aria-label="Progreso en mis metas de vida: 67%"></progress>
+        </section>
+
+        <section>
+            <h2>Más Acerca de Mí</h2>
+            <details>
+                <summary>Mi infancia</summary>
+                <p>Crecí en una familia amorosa en Colombia. Desde pequeño me apasionaron la tecnología y la música. Pasaba mis tardes explorando libros y jugando fútbol con mis amigos del barrio.</p>
+            </details>
+        </section>
+
+        <!-- Sección de ejemplo con clase GRID (requisito 6 y 7) -->
+        <section>
+            <h2>Galería Grid</h2>
+            <div class="grid">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Intro to Web Design logo 1">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Intro to Web Design logo 2">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Intro to Web Design logo 3">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Intro to Web Design logo 4">
+            </div>
+        </section>
+
+        <!-- Sección de ejemplo con clase FLEX (requisito 9) -->
+        <section>
+            <h2>Galería Flex</h2>
+            <div class="flex">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo Web Design A">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo Web Design B">
+                <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo Web Design C">
+            </div>
+        </section>
+
+        <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Intro to Web Design logo principal">
+
+    </main>
+
+    <p>
+        Esta página fue creada por Jimmy Castellanos &amp; Colleen van Lent.
+        Para aprender más sobre diseño web, visita <a href="http://www.intro-webdesign.com">Intro to Web Design</a>.
+    </p>
+
+</body>
+</html>
